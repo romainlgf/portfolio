@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Page vitrine des certifications Cisco de Romain LE GOFF, optimisee pour mobile et acces QR code."
+  >
+  <title>Mes certifications Cisco | Romain LE GOFF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="certifications-cisco.css">
+</head>
+<body>
+  <div class="page-shell" id="top">
+    <div class="page-glow glow-left" aria-hidden="true"></div>
+    <div class="page-glow glow-right" aria-hidden="true"></div>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="hero">
+      <div class="container">
+        <nav class="topbar" aria-label="Navigation">
+          <a class="brand" href="#top">Romain LE GOFF</a>
+          <a class="top-link" href="index.html#qr-certifications">Retour portfolio</a>
+        </nav>
+
+        <div class="hero-card reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-mark" aria-hidden="true"></span>
+              Cisco • Certifications & badges
+            </p>
+            <h1>Mes certifications Cisco</h1>
+            <p class="hero-text">
+              Cette page rassemble mes certifications et badges Cisco dans un format simple,
+              professionnel et parfaitement lisible sur smartphone.
+            </p>
+          </div>
+
+          <aside class="qr-panel" aria-label="QR code vers la page certifications Cisco">
+            <p class="qr-label">QR code</p>
+            <img
+              class="qr-image"
+              src="qr_code_certifications_cisco.png"
+              alt="QR code vers la page des certifications Cisco"
+              loading="lazy"
+            >
+          </aside>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-label">Certifications</p>
+            <h2>Badges et certifications Cisco</h2>
+            <p>
+              Le contenu des cartes est gere dans <strong>certifications-cisco.js</strong> pour permettre
+              des modifications rapides des titres, descriptions, dates, images et liens.
+            </p>
+          </div>
+
+          <div class="certifications-grid" id="certifications-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal" id="footer">
+      <div class="container footer-content">
+        <p class="footer-name">Romain LE GOFF</p>
+        <p class="footer-text">Portfolio personnel • Certifications Cisco</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="certifications-cisco.js"></script>
+</body>
+</html>
