@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualisation certification | Romain LE GOFF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="certification-viewer.css">
+</head>
+<body>
+  <div class="viewer-shell">
+    <header class="viewer-topbar">
+      <a class="viewer-back" href="certifications-cisco.html">Retour aux certifications</a>
+      <p class="viewer-title" id="viewer-title">Certification Cisco</p>
+    </header>
+
+    <main class="viewer-main">
+      <section class="preview-panel">
+        <div class="preview-stage">
+          <img
+            id="certificate-preview"
+            class="certificate-preview"
+            alt="Apercu du certificat"
+          >
+        </div>
+
+        <a
+          id="pdf-link"
+          class="pdf-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ouvrir le PDF complet
+        </a>
+      </section>
+    </main>
+  </div>
+
+  <script src="certification-viewer.js"></script>
+</body>
+</html>
